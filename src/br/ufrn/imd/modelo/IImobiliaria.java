@@ -14,10 +14,6 @@ public interface IImobiliaria {
 
 	public Imovel buscarImovel(int codigo) throws ExcecaoImovelNaoEncontrado;
 
-	public String getNome();
-
-	public void setNome(String nome);
-
 	public int getQuantidadeImoveis();
-
+	
 }
